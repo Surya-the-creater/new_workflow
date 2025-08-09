@@ -1,4 +1,4 @@
-name: linux
+name: workflow_linux
 on:  workflow_dispatch
 jobs:
  jobs1:
