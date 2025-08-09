@@ -1,0 +1,8 @@
+name: linux
+on:  workflow_dispatch
+jobs:
+ jobs1:
+   runs-on: ubuntu-latest
+   steps:
+     - name: linux file
+       run: echo "hello boys"
