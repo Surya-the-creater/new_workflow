@@ -6,3 +6,9 @@ jobs:
    steps:
      - name: linux file
        run: echo "hello boys"
+  jobs2:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: liux different version
+        rum: echo "jump high"
+        
