@@ -1,0 +1,11 @@
+name: linux command
+on:  workflow_dispatch
+jobs:
+  jobs1:
+    runs-on: ubuntu-latest
+    steps:
+     - name: linuxfile
+       run: echo "hello"
+     - name: linuxfile2
+       run: echo "jump up"
+       
